@@ -4,6 +4,28 @@
   <meta charset="UTF-8">
   <title>Contact | William International Education Advisory</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .contact-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      max-width: 800px;
+      margin: auto;
+      text-align: left;
+    }
+    .contact-container img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    }
+    .contact-details p {
+      margin: 10px 0;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -18,10 +40,18 @@
 
   <section>
     <h2>Contact the Founder</h2>
-    <p><strong>Name:</strong> Weicheng (William) Wang</p>
-    <p><strong>Email:</strong> <a href="mailto:wweicheng83@gmail.com">wweicheng83@gmail.com</a></p>
-    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/weicheng-wang-profile/" target="_blank">linkedin.com/in/weicheng-wang-profile</a></p>
-    <p>Please reach out for personalized consultations, partnership opportunities, or admissions support inquiries.</p>
+    <div class="contact-container">
+      <!-- Now using locally uploaded image -->
+      <img src="profile.jpg" alt="William Wang headshot">
+
+      <div class="contact-details">
+        <p><strong>Name:</strong> Weicheng (William) Wang</p>
+        <p><strong>Title:</strong> Founder</p>
+        <p><strong>Email:</strong> <a href="mailto:wweicheng83@gmail.com">wweicheng83@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/weicheng-wang-profile/" target="_blank">linkedin.com/in/weicheng-wang-profile</a></p>
+        <p>Please reach out for personalized consultations, partnership opportunities, or admissions support inquiries.</p>
+      </div>
+    </div>
   </section>
 </body>
 </html>
