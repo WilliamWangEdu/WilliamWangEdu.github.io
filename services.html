@@ -5,9 +5,28 @@
   <title>Services | William International Education Advisory</title>
   <link rel="stylesheet" href="style.css">
   <style>
-    /* Additional spacing between list items */
     li.service-item {
       margin-bottom: 20px;
+    }
+
+    .offer-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .offer-gallery img {
+      width: 220px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .offer-gallery img:hover {
+      transform: scale(1.03);
     }
   </style>
 </head>
@@ -43,6 +62,24 @@
     <p>William has secured admissions for himself and others to:</p>
     <p>🎓 Undergraduate: UC San Diego, UC Davis, Ohio State, Northeastern, UBC, U of Toronto</p>
     <p>🎓 Graduate: Harvard Medical School, Duke (Fuqua), Columbia, USC, UCSD (with $30,000 merit scholarship)</p>
+  </section>
+
+  <section>
+    <h2>Offer Gallery</h2>
+    <p>Below are a few real admission offers received. Sensitive details have been redacted for privacy.</p>
+    <div class="offer-gallery">
+      <img src="ucsd_undergrad.jpg" alt="UC San Diego Undergraduate Offer">
+      <img src="ucdavis.jpg" alt="UC Davis Offer">
+      <img src="ohiostate.jpg" alt="Ohio State Offer">
+      <img src="northeastern.jpg" alt="Northeastern Offer">
+      <img src="ubc.jpg" alt="UBC Offer">
+      <img src="utoronto.jpg" alt="University of Toronto Offer">
+      <img src="harvard_medical.jpg" alt="Harvard Medical School Offer">
+      <img src="duke_grad.jpg" alt="Duke Fuqua Graduate Offer">
+      <img src="columbia_grad.jpg" alt="Columbia Graduate Offer">
+      <img src="usc_grad.jpg" alt="USC Graduate Offer">
+      <img src="ucsd_grad_merit.jpg" alt="UCSD Graduate Offer with Scholarship">
+    </div>
   </section>
 </body>
 </html>
