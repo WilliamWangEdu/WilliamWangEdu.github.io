@@ -25,95 +25,31 @@
     .contact-details p {
       margin: 10px 0;
     }
-    .lang-zh {
-      display: none;
-    }
-    .language-toggle {
-      text-align: center;
-      margin-top: 10px;
-    }
-    .language-toggle button {
-      margin: 0 8px;
-      padding: 6px 12px;
-      cursor: pointer;
-    }
   </style>
 </head>
 <body>
   <header>
-    <h1>
-      <span class="lang-en">William International Education Advisory</span>
-      <span class="lang-zh">William国际升学咨询</span>
-    </h1>
-    <p>
-      <span class="lang-en">Guiding undergraduate & graduate students pursuing international education.</span>
-      <span class="lang-zh">为计划出国留学的本科生与研究生提供专业指导</span>
-    </p>
+    <h1>William International Education Advisory</h1>
+    <p>Guiding undergraduate & graduate students pursuing international education.</p>
     <nav>
       <a href="index.html">Home</a> |
       <a href="services.html">Services</a> |
       <a href="contact.html">Contact</a>
     </nav>
-
-    <div class="language-toggle">
-      <button onclick="setLang('en')">🇺🇸 English</button>
-      <button onclick="setLang('zh')">🇨🇳 中文</button>
-    </div>
   </header>
 
   <section>
-    <h2>
-      <span class="lang-en">Contact the Founder</span>
-      <span class="lang-zh">联系创始人</span>
-    </h2>
+    <h2>Contact the Founder</h2>
     <div class="contact-container">
       <img src="profile.jpg" alt="William Wang headshot">
       <div class="contact-details">
-        <p>
-          <strong>
-            <span class="lang-en">Name:</span>
-            <span class="lang-zh">姓名：</span>
-          </strong>
-          <span class="lang-en">Weicheng (William) Wang</span>
-          <span class="lang-zh">王炜程（William）</span>
-        </p>
-        <p>
-          <strong>
-            <span class="lang-en">Title:</span>
-            <span class="lang-zh">头衔：</span>
-          </strong>
-          <span class="lang-en">Founder</span>
-          <span class="lang-zh">创始人</span>
-        </p>
-        <p>
-          <strong>
-            <span class="lang-en">Email:</span>
-            <span class="lang-zh">邮箱：</span>
-          </strong>
-          <a href="mailto:wweicheng83@gmail.com">wweicheng83@gmail.com</a>
-        </p>
-        <p>
-          <strong>
-            <span class="lang-en">LinkedIn:</span>
-            <span class="lang-zh">LinkedIn：</span>
-          </strong>
-          <a href="https://www.linkedin.com/in/weicheng-wang-profile/" target="_blank">linkedin.com/in/weicheng-wang-profile</a>
-        </p>
-        <p>
-          <span class="lang-en">Please reach out for personalized consultations, partnership opportunities, or admissions support inquiries.</span>
-          <span class="lang-zh">欢迎联系我进行个性化咨询、合作机会或留学申请支持。</span>
-        </p>
+        <p><strong>Name:</strong> Weicheng (William) Wang</p>
+        <p><strong>Title:</strong> Founder</p>
+        <p><strong>Email:</strong> <a href="mailto:wweicheng83@gmail.com">wweicheng83@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/weicheng-wang-profile/" target="_blank">linkedin.com/in/weicheng-wang-profile</a></p>
+        <p>Please reach out for personalized consultations, partnership opportunities, or admissions support inquiries.</p>
       </div>
     </div>
   </section>
-
-  <script>
-    function setLang(lang) {
-      const en = document.querySelectorAll('.lang-en');
-      const zh = document.querySelectorAll('.lang-zh');
-      en.forEach(el => el.style.display = lang === 'en' ? '' : 'none');
-      zh.forEach(el => el.style.display = lang === 'zh' ? '' : 'none');
-    }
-  </script>
 </body>
 </html>
